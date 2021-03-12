@@ -1,3 +1,4 @@
+
 # YOLOV3 Update(Feb/12/2021)
 I have add the testing program calles mod_test.py and mod_evaluator.py 
 
@@ -5,11 +6,9 @@ I have add the mod_train.py which can use to train your own custom data.
 
 I will make the code clean and easier to understand later.
 
-I have trained on coco128(80 classes 128 images) to test the training pipline:
+I have trained on coco128(80 classes 128 images) for few epoch just to test the training pipline:
 
-Examples of the result : https://github.com/tokyo-ai/mobilenetv2-based_yolo3_main/tree/main/custom_data_yolo/valid_results
-
-Training log:  https://github.com/tokyo-ai/mobilenetv2-based_yolo3_main/blob/main/training_log_12Feb.txt
+Examples of the result : https://github.com/Sarut-Theppitak/Yolo_old_with_voc/tree/main/custom_data_yolo/valid_results
 
 
 ![result1](./custom_data_yolo/valid_results/000000000025.jpg)
@@ -33,7 +32,7 @@ custom_data_yolo
 ```
 
 ## To train on yolo format, please modify the mod_train.py to poin to the config file below
-https://github.com/tokyo-ai/mobilenetv2-based_yolo3_main/blob/main/config/yolov3_config_yoloformat.py
+https://github.com/Sarut-Theppitak/Yolo_old_with_voc/blob/main/config/yolov3_config_yoloformat.py
 
 ## Training script
 
